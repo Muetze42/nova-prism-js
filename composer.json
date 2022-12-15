@@ -1,0 +1,33 @@
+{
+    "name": "norman-huth/nova-prism-js",
+    "description": "Syntax Highlighting with Prism.js. A Laravel Nova detail field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "prism",
+        "prism-js",
+        "nova-field"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NormanHuth\\NovaPrismJs\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NormanHuth\\NovaPrismJs\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
