@@ -73,6 +73,8 @@ class PrismJs extends Field
             $this->value = Str::markdown($this->value);
         }
 
+        $this->value = str_replace('<a ', '<a target="_blank" rel="opener" ', $this->value);
+
         return parent::jsonSerialize();
     }
 
@@ -81,45 +83,4 @@ class PrismJs extends Field
      *
      * @return array<string, mixed>
      */
-//    public function jsonSerialize(): array
-//    {
-//        /** @phpstan-ignore-next-line */
-//        return with(app(NovaRequest::class), function ($request) {
-//            $value = $this->value ?? $this->resolveDefaultValue($request);
-//            $value = paresMarkdown($value);
-//
-//            return array_merge([
-//                'attribute' => $this->attribute,
-//                'component' => $this->component(),
-//                'dependentComponentKey' => $this->dependentComponentKey(),
-//                'dependsOn' => $this->getDependentsAttributes($request),
-//                'displayedAs' => $this->displayedAs,
-//                'fullWidth' => $this->fullWidth,
-//                'helpText' => $this->getHelpText(),
-//                'indexName' => $this->name,
-//                'name' => $this->name,
-//                'nullable' => $this->nullable,
-//                'panel' => $this->panel,
-//                'placeholder' => $this->placeholder,
-//                'prefixComponent' => true,
-//                'readonly' => $this->isReadonly($request),
-//                'required' => $this->isRequired($request),
-//                'sortable' => $this->sortable,
-//                'sortableUriKey' => $this->sortableUriKey(),
-//                'stacked' => $this->stacked,
-//                'textAlign' => $this->textAlign,
-//                'uniqueKey' => sprintf(
-//                    '%s-%s-%s',
-//                    $this->attribute,
-//                    Str::slug($this->panel ?? 'default'),
-//                    $this->component()
-//                ),
-//                'usesCustomizedDisplay' => $this->usesCustomizedDisplay,
-//                'validationKey' => $this->validationKey(),
-//                'value' => $value,
-//                'visible' => $this->visible,
-//                'wrapping' => $this->wrapping,
-//            ], $this->meta());
-//        });
-//    }
 }
