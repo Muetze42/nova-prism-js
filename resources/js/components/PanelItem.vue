@@ -42,8 +42,6 @@ export default {
         window.Prism = window.Prism || {};
         window.Prism.manual = true;
         Prism.highlightAll(); // highlight your code on mount
-
-        console.log(this.field)
     },
 }
 </script>
