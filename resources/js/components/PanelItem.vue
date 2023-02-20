@@ -20,13 +20,14 @@
 
 <script>
 import { FieldValue } from 'laravel-nova'
-import Prism from "./../prism";
+import Prism from "prismjs"
 import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 import "prismjs/plugins/toolbar/prism-toolbar.min";
 import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min";
 import "prismjs/plugins/show-language/prism-show-language.min";
-import "prismjs/plugins/line-numbers/prism-line-numbers.min";
-import "prismjs/plugins/line-numbers/prism-line-numbers.min.css";
+import "prismjs/plugins/inline-color/prism-inline-color.min"
+import "prismjs/plugins/inline-color/prism-inline-color.min.css"
+import "./../prismjs-components"
 
 export default {
     mixins: [FieldValue],
