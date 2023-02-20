@@ -1,6 +1,3 @@
-@import "light";
-@import "dark";
-
 .prism-field {
   a {
     color: rgba(var(--colors-primary-500));
@@ -9,4 +6,10 @@
       color: rgba(var(--colors-primary-400));
     }
   }
+}
+html:not(.dark) {
+    @import "prismjs/themes/prism-coy";
+}
+html.dark {
+    @import "prismjs/themes/prism-okaidia";
 }
