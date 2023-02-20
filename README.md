@@ -33,7 +33,7 @@ use NormanHuth\NovaPrismJs\PrismJs;
 ### Change Theme
 
 Set the Prism theme for light and dark mode.  
-Available themes: `default, coy, dark, funky, okaidia, solarizedlight, tomorrow, twilight`  
+Available themes: `default`, `coy`, `dark`, `funky`, `okaidia`, `solarizedlight`, `tomorrow`, `twilight`
 Preview on [https://prismjs.com](https://prismjs.com/)
 
 ```php
