@@ -3,6 +3,7 @@
 namespace NormanHuth\NovaPrismJs;
 
 use Illuminate\Support\Str;
+use JetBrains\PhpStorm\ExpectedValues;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -50,6 +51,51 @@ class PrismJs extends Field
      */
     public $showOnUpdate = false;
 
+    public function __construct($name, $attribute = null, callable $resolveCallback = null)
+    {
+        parent::__construct($name, $attribute, $resolveCallback);
+        $this->withMeta([
+            'theme' => 'theme-coy',
+            'darkTheme' => 'dark-theme-okaidia',
+        ]);
+    }
+
+    /**
+     * Set Prism.js theme
+     *
+     * @param string $theme
+     * @return PrismJs
+     */
+    public function setTheme(
+        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'])]
+        string $theme
+    ): static
+    {
+        $this->withMeta([
+            'theme' => 'theme-'.$theme,
+        ]);
+
+        return $this;
+    }
+
+    /**
+     * Set Prism.js dark mode theme
+     *
+     * @param string $theme
+     * @return PrismJs
+     */
+    public function setDarkTheme(
+        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'])]
+        string $theme
+    ): static
+    {
+        $this->withMeta([
+            'darkTheme' => 'dark-theme-'.$theme,
+        ]);
+
+        return $this;
+    }
+
     /**
      * Don’t convert GitHub flavored Markdown into HTML.
      *
@@ -77,10 +123,4 @@ class PrismJs extends Field
 
         return parent::jsonSerialize();
     }
-
-    /**
-     * Prepare the field for JSON serialization.
-     *
-     * @return array<string, mixed>
-     */
 }
