@@ -30,3 +30,4 @@ import "prismjs/components/prism-sass.min";
 import "prismjs/components/prism-scheme.min";
 import "prismjs/components/prism-typescript.min";
 import "prismjs/components/prism-yaml.min";
+Prism.languages.vue = Prism.languages.markup;

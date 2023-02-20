@@ -12,7 +12,7 @@
         </div>
         <div class="break-all lg:break-words md:py-3" :class="field.fullWidth ? 'w-full' : 'md:w-3/4'">
             <slot name="value">
-                <div class="line-numbers" v-html="fieldValue"/>
+                <div class="line-numbers" :class="field.theme + ' ' + field.darkTheme" v-html="fieldValue"/>
             </slot>
         </div>
     </div>
@@ -38,11 +38,13 @@ export default {
             required: true,
         },
     },
-
+    updated() {
+        console.log('updated')
+    },
     mounted() {
         window.Prism = window.Prism || {};
         window.Prism.manual = true;
-        Prism.highlightAll(); // highlight your code on mount
+        Prism.highlightAll();
     },
 }
 </script>

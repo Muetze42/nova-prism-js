@@ -8,3 +8,4 @@ mix
     .vue({version: 3})
     .sass('resources/scss/field.scss', 'css')
     .nova('norman-huth/nova-prism-js')
+    .disableNotifications()
