@@ -1,0 +1,172 @@
+html:not(.dark) .prism-field .theme-default,
+html.dark .prism-field .dark-theme-default {
+    @import "prismjs/themes/prism";
+}
+html:not(.dark) .prism-field .theme-coy,
+html.dark .prism-field .dark-theme-coy {
+    @import "prismjs/themes/prism-coy";
+}
+html:not(.dark) .prism-field .theme-dark,
+html.dark .prism-field .dark-theme-dark {
+    @import "prismjs/themes/prism-dark";
+}
+html:not(.dark) .prism-field .theme-funky,
+html.dark .prism-field .dark-theme-funky {
+    @import "prismjs/themes/prism-funky";
+}
+html:not(.dark) .prism-field .theme-okaidia,
+html.dark .prism-field .dark-theme-okaidia {
+    @import "prismjs/themes/prism-okaidia";
+}
+html:not(.dark) .prism-field .theme-solarizedlight,
+html.dark .prism-field .dark-theme-solarizedlight {
+    @import "prismjs/themes/prism-solarizedlight";
+}
+html:not(.dark) .prism-field .theme-twilight,
+html.dark .prism-field .dark-theme-twilight {
+    @import "prismjs/themes/prism-twilight";
+}
+html:not(.dark) .prism-field .theme-a11y-dark,
+html.dark .prism-field .dark-theme-a11y-dark {
+    @import "prism-themes/themes/prism-a11y-dark";
+}
+html:not(.dark) .prism-field .theme-atom-dark,
+html.dark .prism-field .dark-theme-atom-dark {
+    @import "prism-themes/themes/prism-atom-dark";
+}
+html:not(.dark) .prism-field .theme-base16-ateliersulphurpool-light,
+html.dark .prism-field .dark-theme-base16-ateliersulphurpool-light {
+    @import "prism-themes/themes/prism-base16-ateliersulphurpool.light";
+}
+html:not(.dark) .prism-field .theme-cb,
+html.dark .prism-field .dark-theme-cb {
+    @import "prism-themes/themes/prism-cb";
+}
+html:not(.dark) .prism-field .theme-coldark-cold,
+html.dark .prism-field .dark-theme-coldark-cold {
+    @import "prism-themes/themes/prism-coldark-cold";
+}
+html:not(.dark) .prism-field .theme-coldark-dark,
+html.dark .prism-field .dark-theme-coldark-dark {
+    @import "prism-themes/themes/prism-coldark-dark";
+}
+html:not(.dark) .prism-field .theme-coy-without-shadows,
+html.dark .prism-field .dark-theme-coy-without-shadows {
+    @import "prism-themes/themes/prism-coy-without-shadows";
+}
+html:not(.dark) .prism-field .theme-darcula,
+html.dark .prism-field .dark-theme-darcula {
+    @import "prism-themes/themes/prism-darcula";
+}
+html:not(.dark) .prism-field .theme-dracula,
+html.dark .prism-field .dark-theme-dracula {
+    @import "prism-themes/themes/prism-dracula";
+}
+html:not(.dark) .prism-field .theme-duotone-dark,
+html.dark .prism-field .dark-theme-duotone-dark {
+    @import "prism-themes/themes/prism-duotone-dark";
+}
+html:not(.dark) .prism-field .theme-duotone-earth,
+html.dark .prism-field .dark-theme-duotone-earth {
+    @import "prism-themes/themes/prism-duotone-earth";
+}
+html:not(.dark) .prism-field .theme-duotone-forest,
+html.dark .prism-field .dark-theme-duotone-forest {
+    @import "prism-themes/themes/prism-duotone-forest";
+}
+html:not(.dark) .prism-field .theme-duotone-light,
+html.dark .prism-field .dark-theme-duotone-light {
+    @import "prism-themes/themes/prism-duotone-light";
+}
+html:not(.dark) .prism-field .theme-duotone-sea,
+html.dark .prism-field .dark-theme-duotone-sea {
+    @import "prism-themes/themes/prism-duotone-sea";
+}
+html:not(.dark) .prism-field .theme-duotone-space,
+html.dark .prism-field .dark-theme-duotone-space {
+    @import "prism-themes/themes/prism-duotone-space";
+}
+html:not(.dark) .prism-field .theme-ghcolors,
+html.dark .prism-field .dark-theme-ghcolors {
+    @import "prism-themes/themes/prism-ghcolors";
+}
+html:not(.dark) .prism-field .theme-gruvbox-dark,
+html.dark .prism-field .dark-theme-gruvbox-dark {
+    @import "prism-themes/themes/prism-gruvbox-dark";
+}
+html:not(.dark) .prism-field .theme-gruvbox-light,
+html.dark .prism-field .dark-theme-gruvbox-light {
+    @import "prism-themes/themes/prism-gruvbox-light";
+}
+html:not(.dark) .prism-field .theme-holi-theme,
+html.dark .prism-field .dark-theme-holi-theme {
+    @import "prism-themes/themes/prism-holi-theme";
+}
+html:not(.dark) .prism-field .theme-hopscotch,
+html.dark .prism-field .dark-theme-hopscotch {
+    @import "prism-themes/themes/prism-hopscotch";
+}
+html:not(.dark) .prism-field .theme-lucario,
+html.dark .prism-field .dark-theme-lucario {
+    @import "prism-themes/themes/prism-lucario";
+}
+html:not(.dark) .prism-field .theme-material-dark,
+html.dark .prism-field .dark-theme-material-dark {
+    @import "prism-themes/themes/prism-material-dark";
+}
+html:not(.dark) .prism-field .theme-material-light,
+html.dark .prism-field .dark-theme-material-light {
+    @import "prism-themes/themes/prism-material-light";
+}
+html:not(.dark) .prism-field .theme-material-oceanic,
+html.dark .prism-field .dark-theme-material-oceanic {
+    @import "prism-themes/themes/prism-material-oceanic";
+}
+html:not(.dark) .prism-field .theme-night-owl,
+html.dark .prism-field .dark-theme-night-owl {
+    @import "prism-themes/themes/prism-night-owl";
+}
+html:not(.dark) .prism-field .theme-nord,
+html.dark .prism-field .dark-theme-nord {
+    @import "prism-themes/themes/prism-nord";
+}
+html:not(.dark) .prism-field .theme-one-dark,
+html.dark .prism-field .dark-theme-one-dark {
+    @import "prism-themes/themes/prism-one-dark";
+}
+html:not(.dark) .prism-field .theme-one-light,
+html.dark .prism-field .dark-theme-one-light {
+    @import "prism-themes/themes/prism-one-light";
+}
+html:not(.dark) .prism-field .theme-pojoaque,
+html.dark .prism-field .dark-theme-pojoaque {
+    @import "prism-themes/themes/prism-pojoaque";
+}
+html:not(.dark) .prism-field .theme-shades-of-purple,
+html.dark .prism-field .dark-theme-shades-of-purple {
+    @import "prism-themes/themes/prism-shades-of-purple";
+}
+html:not(.dark) .prism-field .theme-solarized-dark-atom,
+html.dark .prism-field .dark-theme-solarized-dark-atom {
+    @import "prism-themes/themes/prism-solarized-dark-atom";
+}
+html:not(.dark) .prism-field .theme-synthwave84,
+html.dark .prism-field .dark-theme-synthwave84 {
+    @import "prism-themes/themes/prism-synthwave84";
+}
+html:not(.dark) .prism-field .theme-vs,
+html.dark .prism-field .dark-theme-vs {
+    @import "prism-themes/themes/prism-vs";
+}
+html:not(.dark) .prism-field .theme-vsc-dark-plus,
+html.dark .prism-field .dark-theme-vsc-dark-plus {
+    @import "prism-themes/themes/prism-vsc-dark-plus";
+}
+html:not(.dark) .prism-field .theme-xonokai,
+html.dark .prism-field .dark-theme-xonokai {
+    @import "prism-themes/themes/prism-xonokai";
+}
+html:not(.dark) .prism-field .theme-z-touch,
+html.dark .prism-field .dark-theme-z-touch {
+    @import "prism-themes/themes/prism-z-touch";
+}

@@ -67,7 +67,7 @@ class PrismJs extends Field
      * @return PrismJs
      */
     public function setTheme(
-        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'])]
+        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight', 'a11y-dark', 'atom-dark', 'base16-ateliersulphurpool-light', 'cb', 'coldark-cold', 'coldark-dark', 'coy-without-shadows', 'darcula', 'dracula', 'duotone-dark', 'duotone-earth', 'duotone-forest', 'duotone-light', 'duotone-sea', 'duotone-space', 'ghcolors', 'gruvbox-dark', 'gruvbox-light', 'holi-theme', 'hopscotch', 'lucario', 'material-dark', 'material-light', 'material-oceanic', 'night-owl', 'nord', 'one-dark', 'one-light', 'pojoaque', 'shades-of-purple', 'solarized-dark-atom', 'synthwave84', 'vs', 'vsc-dark-plus', 'xonokai', 'z-touch',])]
         string $theme
     ): static
     {
@@ -85,7 +85,7 @@ class PrismJs extends Field
      * @return PrismJs
      */
     public function setDarkTheme(
-        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight'])]
+        #[ExpectedValues(values: ['default', 'coy', 'dark', 'funky', 'okaidia', 'solarizedlight', 'tomorrow', 'twilight', 'a11y-dark', 'atom-dark', 'base16-ateliersulphurpool-light', 'cb', 'coldark-cold', 'coldark-dark', 'coy-without-shadows', 'darcula', 'dracula', 'duotone-dark', 'duotone-earth', 'duotone-forest', 'duotone-light', 'duotone-sea', 'duotone-space', 'ghcolors', 'gruvbox-dark', 'gruvbox-light', 'holi-theme', 'hopscotch', 'lucario', 'material-dark', 'material-light', 'material-oceanic', 'night-owl', 'nord', 'one-dark', 'one-light', 'pojoaque', 'shades-of-purple', 'solarized-dark-atom', 'synthwave84', 'vs', 'vsc-dark-plus', 'xonokai', 'z-touch',])]
         string $theme
     ): static
     {
