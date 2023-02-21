@@ -13,36 +13,3 @@
 }
 
 @import "prism-themes";
-
-html:not(.dark) .prism-field .theme-default,
-html.dark .prism-field .dark-theme-default {
-    @import "prismjs/themes/prism";
-}
-html:not(.dark) .prism-field .theme-coy,
-html.dark .prism-field .dark-theme-coy {
-    @import "prismjs/themes/prism-coy";
-}
-html:not(.dark) .prism-field .theme-dark,
-html.dark .prism-field .dark-theme-dark {
-    @import "prismjs/themes/prism-dark";
-}
-html:not(.dark) .prism-field .theme-funky,
-html.dark .prism-field .dark-theme-funky {
-    @import "prismjs/themes/prism-funky";
-}
-html:not(.dark) .prism-field .theme-okaidia,
-html.dark .prism-field .dark-theme-okaidia {
-    @import "prismjs/themes/prism-okaidia";
-}
-html:not(.dark) .prism-field .theme-solarizedlight,
-html.dark .prism-field .dark-theme-solarizedlight {
-    @import "prismjs/themes/prism-solarizedlight";
-}
-html:not(.dark) .prism-field .theme-tomorrow,
-html.dark .prism-field .dark-theme-tomorrow {
-    @import "prismjs/themes/prism-tomorrow";
-}
-html:not(.dark) .prism-field .theme-twilight,
-html.dark .prism-field .dark-theme-twilight {
-    @import "prismjs/themes/prism-twilight";
-}
