@@ -33,9 +33,8 @@ use NormanHuth\NovaPrismJs\PrismJs;
 ### Change Theme
 
 Set the Prism theme for light and dark mode.  
-Available themes: `default`, `coy`, `dark`, `funky`, `okaidia`, `solarizedlight`, `tomorrow`, `twilight`  
-Preview on [https://prismjs.com](https://prismjs.com/)
-
+* Theme from [prismjs.com](https://prismjs.com/): `default`, `coy`, `dark`, `funky`, `okaidia`, `solarizedlight`, `tomorrow`, `twilight`
+* Theme from [PrismJS/prism-themes](https://github.com/PrismJS/prism-themes): `a11y-dark`, `atom-dark`, `base16-ateliersulphurpool-light`, `cb`, `coldark-cold`, `coldark-dark`, `coy-without-shadows`, `darcula`, `dracula`, `duotone-dark`, `duotone-earth`, `duotone-forest`, `duotone-light`, `duotone-sea`, `duotone-space`, `ghcolors`, `gruvbox-dark`, `gruvbox-light`, `holi-theme`, `hopscotch`, `lucario`, `material-dark`, `material-light`, `material-oceanic`, `night-owl`, `nord`, `one-dark`, `one-light`, `pojoaque`, `shades-of-purple`, `solarized-dark-atom`, `synthwave84`, `vs`, `vsc-dark-plus`, `xonokai`, `z-touch`
 ```php
 PrismJs::make(__('Content'), 'content')
     ->setTheme('tomorrow')
