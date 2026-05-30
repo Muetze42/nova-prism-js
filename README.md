@@ -1,3 +1,13 @@
+## 📦 Archived
+
+This repository is archived and no longer maintained.
+
+If you offer, maintain, or know of an actively maintained alternative to this project, please contact me at **[maintainers@huth.it](mailto:maintainers@huth.it)**.
+
+If the alternative references this repository as its source, inspiration, predecessor, or migration path, I may list it here so existing users can find a maintained replacement.
+
+---
+
 # Nova Prism.js
 
 A Nova detail field with Syntax Highlighter via [Prism.js](https://prismjs.com/). Usable with Markdown or HTML.
